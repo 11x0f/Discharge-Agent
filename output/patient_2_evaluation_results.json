@@ -1,0 +1,32 @@
+[
+  {
+    "iteration": 1,
+    "edit_distance": 0.5032,
+    "reward": 0.4968,
+    "avg_section_accuracy": 0.563
+  },
+  {
+    "iteration": 2,
+    "edit_distance": 0.0339,
+    "reward": 0.9661,
+    "avg_section_accuracy": 0.9693
+  },
+  {
+    "iteration": 3,
+    "edit_distance": 0.0112,
+    "reward": 0.9888,
+    "avg_section_accuracy": 0.9939
+  },
+  {
+    "iteration": 4,
+    "edit_distance": 0.0,
+    "reward": 1.0,
+    "avg_section_accuracy": 1.0
+  },
+  {
+    "iteration": 5,
+    "edit_distance": 0.0674,
+    "reward": 0.9326,
+    "avg_section_accuracy": 0.9873
+  }
+]

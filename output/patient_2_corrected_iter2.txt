@@ -1,0 +1,61 @@
+DISCHARGE SUMMARY DRAFT
+
+1. Patient Demographics:
+- Name: To be completed by admitting physician
+- Date of Birth: To be completed by admitting physician
+- Patient ID: To be completed by admitting physician
+
+2. Admission & Discharge Dates:
+- Date of Admission: 26/02/2026
+- Date of Discharge: 02/03/2026
+
+3. Principal Diagnosis:
+- Most likely: DKA (Diabetic Ketoacidosis) as per ER observation chart [CONFLICTED - FLAG FOR CLINICIAN REVIEW]
+
+4. Secondary Diagnoses:
+1. Uncontrolled Type 2 Diabetes Mellitus (T2DM)
+2. Most likely: Urinary Tract Infection [CONFLICTED - FLAG FOR CLINICIAN REVIEW]
+3. Cholelithiasis without cholecystitis
+4. Mild Hepatomegaly with Grade I Fatty Liver infiltration
+5. Mild bilateral pleural effusion with underlying subsegmental lung consolidation
+6. Minimal ascites
+
+5. Hospital Course:
+The patient presented with a history of fever, multiple episodes of loose stools and vomiting, and fatigue. They were evaluated and admitted; initial labs showed elevated serum creatinine, which later normalized. The patient developed features consistent with pyelonephritis and urinary tract infection; a urine culture was initially awaited, which later showed no significant bacteriuria. Treatment included intravenous fluids, IV antibiotics such as Meropenem, IV proton pump inhibitors, and antiemetics, alongside supportive management like insulin therapy for uncontrolled T2DM and DKA. Imaging via USG abdomen and pelvis revealed hepatomegaly, cholelithiasis, and bulky kidneys with fat stranding suggestive of pyelonephritis. An echocardiogram showed normal left ventricular function with trivial valvular regurgitations. The patient remained hemodynamically stable at discharge and requested discharge against medical advice after clinical stabilization.
+
+6. Procedures:
+- IV cannulation
+- Foley's catheter insertion (16F)
+- NG tube insertion
+- USG abdomen and pelvis
+- C.T. KUB scan
+- ECG
+- 2D Echocardiography
+
+7. Discharge Medications:
+| Medication Name   | Dose            | Route  | Frequency | Duration | Notes                                      |
+|-------------------|-----------------|--------|-----------|----------|--------------------------------------------|
+| TAB. RACIPER      | 40 MG           | Oral   | 1-0-0     | 7 days   | Started on discharge; no documented reason  |
+| TAB. EMESET       | 4 MG            | Oral   | 1-1-1     | 3 days   | Continued from IV form; likely antiemetic  |
+| TAB. OFLOX TZ     | [dose to be verified] | Oral | 1-0-1     | 5 days   | Presumably antibiotic; no dosage specified |
+| TAB. M STRONG      | [dose to be verified] | Oral | 1-0-0     | 15 days  | Started at discharge; no documented reason  |
+| TAB. ZEDOTT       | [dose to be verified] | Oral | 1-1-1     | 3 days   | No documented reason                       |
+| TAB. ENTR         | [dose to be verified] | Oral | 1-0-1     | 3 days   | Started at discharge; no documented reason  |
+| TAB. MEFTAL SPAS  | [dose to be verified] | Oral | 1 TAB SOS | 4 tablets | Prescribed as needed; no documented reason  |
+| TAB. LOPIRAMIDE   | 2 MG            | Oral   | 1-0-1     | 5 days   | Likely for diarrhea; no explicit documentation |
+
+8. Allergies:
+- NKDA (No Known Drug Allergies)
+
+9. Follow-up Instructions:
+- Follow up on 09/03/2026 with urine culture and sensitivity report.
+- Diet counseling for uncontrolled diabetes; strict diet modification recommended.
+- Review immediately in case of fever, loose stools, vomiting, fatigue.
+
+10. Flags for Clinician Review:
+1. Conflicted diagnosis between Acute Gastroenteritis with Dehydration, Urinary Tract Infection versus DKA.
+2. Conflicting diagnosis regarding UTI and pyelonephritis versus no significant bacteriuria on urine culture.
+3. Missing patient identifiers: full name, date of birth, patient ID.
+4. Pending urine culture report.
+
+REVIEWED DRAFT - Requires final clinician sign-off before release.
