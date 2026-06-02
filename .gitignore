@@ -2,3 +2,7 @@
 venv/
 data/.cache/
 data/**/.cache
+__pycache__/
+**/__pycache__/
+*.pyc 
+*.pyo
