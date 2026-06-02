@@ -1,0 +1,86 @@
+DISCHARGE SUMMARY DRAFT
+
+1. Patient Demographics:
+- Name: [MISSING - FLAG FOR CLINICIAN REVIEW]
+- Date of Birth: [MISSING - FLAG FOR CLINICIAN REVIEW]
+- Patient ID: [MISSING - FLAG FOR CLINICIAN REVIEW]
+
+2. Admission & Discharge Dates:
+- Date of Admission: 26/02/2026 (from nursing initial assessment and admission records)
+- Date of Discharge: 02/03/2026 (discharge notes dated 2/3/26)
+
+3. Principal Diagnosis:
+- ACUTE GASTROENTERITIS WITH DEHYDRATION [CONFLICTED - FLAG FOR CLINICIAN REVIEW]
+- DKA (Diabetic Ketoacidosis) as per ER observation chart [CONFLICTED - FLAG FOR CLINICIAN REVIEW]
+
+4. Secondary Diagnoses:
+- URINARY TRACT INFECTION and ACUTE PYELONEPHRITIS [CONFLICTED - FLAG FOR CLINICIAN REVIEW]
+- Uncontrolled Type 2 Diabetes Mellitus (T2DM)
+- Cholelithiasis without cholecystitis
+- Mild Hepatomegaly with Grade I Fatty Liver infiltration
+- Mild bilateral pleural effusion with underlying subsegmental lung consolidation
+- Minimal ascites
+
+5. Hospital Course:
+- Patient presented with history of fever, multiple episodes of loose stools, vomiting, fatigue.
+- Evaluated and admitted; initial labs showed elevated serum creatinine (1.65 mg/dL) which later normalized.
+- Developed features consistent with pyelonephritis and urinary tract infection; urine culture was sent with report awaited initially, but later culture showed no significant bacteriuria.
+- Patient was treated with intravenous fluids, IV antibiotics (including Meropenem), IV proton pump inhibitors, and antiemetics.
+- Supportive management including insulin therapy for uncontrolled T2DM and DKA.
+- Imaging with USG abdomen and pelvis revealed hepatomegaly, cholelithiasis, and bulky kidneys with fat stranding suggestive of pyelonephritis.
+- Echocardiogram showed normal left ventricular function with trivial valvular regurgitations.
+- Patient remained hemodynamically stable at discharge.
+- Patient requested discharge against medical advice after clinical stabilization.
+
+6. Procedures:
+- IV cannulation (multiple sizes used during admission)
+- Foley's catheter insertion (16F) maintained during admission.
+- NG tube insertion.
+- USG abdomen and pelvis.
+- C.T. KUB scan.
+- ECG.
+- 2D Echocardiography.
+
+7. Discharge Medications:
+| Medication Name   | Dosage   | Frequency | Duration | Notes                                      |
+|------------------|----------|-----------|----------|--------------------------------------------|
+| TAB. RACIPER      | 40 MG    | 1-0-0 (before food) | 7 days   | Started on discharge; no documented reason [FLAGGED] |
+| TAB. EMESET       | 4 MG     | 1-1-1     | 3 days   | Continued from IV form; likely antiemetic  |
+| TAB. OFLOX TZ     | [MISSING - FLAG] | 1-0-1     | 5 days   | Presumably antibiotic; no dosage specified |
+| TAB M STRONG      | [MISSING - FLAG] | 1-0-0     | 15 days  | Started at discharge; no documented reason [FLAGGED] |
+| TAB. ZEDOTT       | [MISSING - FLAG] | 1-1-1     | 3 days   | No documented reason                       |
+| TAB. ENTR         | [MISSING - FLAG] | 1-0-1     | 3 days   | Started at discharge; no documented reason [FLAGGED] |
+| TAB. MEFTAL SPAS  | [MISSING - FLAG] | 1 TAB SOS | 4 tablets| Prescribed as needed; no documented reason [FLAGGED] |
+| TAB. LOPIRAMIDE   | 2 MG     | 1-0-1     | 5 days   | Likely for diarrhea; no explicit documentation |
+
+8. Allergies:
+- No known drug allergies documented.
+
+9. Follow-up Instructions:
+- Review immediately in case of fever, loose stools, vomiting, fatigue.
+- Urine culture and sensitivity report pending.
+- Scheduled review on 09/03/2026 with CBC.
+- Diet counseling for uncontrolled diabetes; strict diet modification recommended.
+
+10. Pending Results:
+- Urine culture and sensitivity report noted as awaited in admission note and follow-up instructions [PENDING - FLAG FOR CLINICIAN REVIEW].
+
+11. Discharge Condition:
+- Hemodynamically stable.
+- Conscious and oriented.
+- No fever recorded at discharge.
+- Patient discharged on request against medical advice.
+
+12. Flags for Clinician Review:
+- Conflicted diagnosis between Acute Gastroenteritis with Dehydration, Urinary Tract Infection versus DKA.
+- Conflicted serum creatinine values during admission and hospital course.
+- Conflicted serum sodium values from different tests.
+- Conflicted urine routine examination results and interpretation.
+- Conflicting diagnosis regarding UTI and pyelonephritis versus no significant bacteriuria on urine culture.
+- Conflicted patient weight documented as 76kg and 71kg.
+- Conflicted hemoglobin values in CBC reports.
+- Undocumented reasons for initiation of TAB. RACIPER, TAB M STRONG, TAB. ENTR, and TAB. MEFTAL SPAS.
+- Missing patient identifiers: full name, date of birth, patient ID.
+- Pending urine culture report.
+
+THIS IS A DRAFT. All flagged fields require clinician review.
