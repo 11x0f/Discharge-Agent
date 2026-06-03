@@ -1,0 +1,81 @@
+DISCHARGE SUMMARY DRAFT
+
+1. Patient Demographics
+- Name: [MISSING - FLAG FOR CLINICIAN REVIEW]
+- Date of Birth: [MISSING - FLAG FOR CLINICIAN REVIEW]
+- Patient ID: [MISSING - FLAG FOR CLINICIAN REVIEW]
+- Age/Gender: 58 years / Male
+- Blood Group: B+
+- Weight: 74 kg
+
+2. Admission & Discharge Dates
+- Date of Admission: 15/04/2026
+- Time of Admission: 10:30 AM
+- Date of Discharge: [MISSING - FLAG FOR CLINICIAN REVIEW]
+- Time of Discharge: [MISSING - FLAG FOR CLINICIAN REVIEW]
+
+3. Principal Diagnosis
+- Conflicting diagnoses noted:
+  * Admission Note: Hypertensive Emergency with Hypertensive Retinopathy
+  * Progress Note & Discharge Note: Hypertensive Urgency
+  [CONFLICTED - FLAG FOR CLINICIAN REVIEW]
+
+4. Secondary Diagnoses
+- Type 2 Diabetes Mellitus - Uncontrolled
+- Hypertensive Nephropathy vs Pyelonephritis (Conflicting impression; nephrology opinion pending)
+- Left Ventricular Hypertrophy (ECG finding)
+
+5. Hospital Course
+- Patient admitted with severe headache, blurring of vision, and nausea.
+- Initial BP was 210/120 mmHg.
+- Received IV Labetalol 20mg and IV Furosemide 40mg for acute blood pressure control.
+- Blood pressure improved to 170/100 mmHg on day 2 with medication adjustments.
+- Headache resolved and vision improved by discharge.
+- Investigations revealed papilloedema, elevated serum creatinine and blood urea, proteinuria on urine routine.
+- CT brain showed no intracranial bleed or infarct; mild white matter changes noted.
+- ECG showed left ventricular hypertrophy.
+- Renal function test complete panel report and nephrology opinion were pending at discharge.
+- Medication adjustments included increasing amlodipine dose and addition of telmisartan and oral furosemide.
+- Patient counselled and advised on low salt, low fat, diabetic diet.
+
+6. Procedures
+- IV access secured on admission.
+- Administration of IV Labetalol and IV Furosemide for acute management.
+
+7. Discharge Medications
+- Tab. Amlodipine 10mg OD (Dose increased from 5mg OD on 16/04/2026; no documented clinical reason for dose increase) [CONFLICTED - FLAG FOR CLINICIAN REVIEW]
+- Tab. Telmisartan 40mg OD (New medication started on 16/04/2026; no documented clinical indication) [CONFLICTED - FLAG FOR CLINICIAN REVIEW]
+- Tab. Furosemide 40mg OD oral (Changed from IV to oral; no documented reason) [CONFLICTED - FLAG FOR CLINICIAN REVIEW]
+- Tab. Metformin 500mg BD (Continued from prior to admission)
+- Tab. Aspirin 75mg OD for 30 days (New medication at discharge; no documented clinical indication) [CONFLICTED - FLAG FOR CLINICIAN REVIEW]
+
+8. Allergies
+- Penicillin allergy documented: Rash
+- Note: Conflicting allergy documentation present stating allergy but also conflicting entry noted on admission. [CONFLICTED - FLAG FOR CLINICIAN REVIEW]
+
+9. Follow-up Instructions
+- Review after 1 week with repeat Renal Function Test, Complete Blood Count, Urine Routine.
+- Daily blood pressure monitoring at home.
+- Low salt (<2 gm sodium/day), low fat diet, diabetic diet avoiding simple sugars.
+- Diabetologist consultation for uncontrolled diabetes.
+- Nephrology follow-up for renal impairment.
+
+10. Pending Results
+- Complete Renal Function Test panel results: Pending
+- Nephrology opinion regarding renal diagnosis: Pending
+
+11. Discharge Condition
+- Hemodynamically stable at discharge.
+- Blood Pressure 150/90 mmHg.
+- Headache resolved.
+- Vision improved.
+
+12. Flags for Clinician Review
+- Missing patient identifiers: name, patient ID, discharge date and time.
+- Conflicting principal diagnosis between Hypertensive Emergency and Hypertensive Urgency.
+- Conflicting renal diagnosis/impression: Hypertensive Nephropathy vs Pyelonephritis with pending nephrology opinion.
+- Conflicting and undocumented medication changes: Amlodipine dose increase, initiation of Telmisartan, route change of Furosemide to oral, addition of Aspirin without documented indications.
+- Conflicting allergy documentation regarding Penicillin.
+- Pending renal function test results and nephrology opinion.
+
+THIS IS A DRAFT. All flagged fields require clinician review.
