@@ -107,3 +107,37 @@ Outputs saved to `output/`:
 - Escalation tool is mock — production would integrate with hospital EMR escalation workflows
 - Handwritten text occasionally produces `[unclear]` tokens where GPT-4o cannot confidently read
 - Single PDF per patient folder assumed — multi-file patients need folder-level organization
+
+
+## Part 2 Results & Limitations
+
+### Reward Signal
+Edit distance between agent draft and reviewer-corrected version is used as the reward signal. Lower edit distance = less editing needed = better draft.
+
+### Results (5 iterations, patient_2)
+| Iteration | Edit Distance | Reward | Section Accuracy |
+|-----------|--------------|--------|-----------------|
+| 1 | 0.371 | 0.629 | 0.643 |
+| 2 | 0.366 | 0.634 | 0.548 |
+| 3 | 0.412 | 0.588 | 0.568 |
+| 4 | 0.321 | 0.679 | 0.488 |
+| 5 | 0.385 | 0.615 | 0.573 |
+
+### Honest Assessment
+The edit distance does not show a consistent downward trend across 5 iterations. This is expected given:
+- The agent itself does not re-run between iterations — only the reviewer sees correction context
+- GPT-4o is non-deterministic, causing natural variance
+- 5 iterations with 1 patient is insufficient for meaningful learning
+- True improvement requires the agent to re-generate drafts with injected correction memory
+
+### What Would Work With More Time
+- Re-run the full agent each iteration with correction context injected into the summary writer prompt
+- Use 10+ patients and 10+ iterations for statistically meaningful results
+- Fine-tune a smaller model on (draft, corrected) pairs using DPO/SFT
+- Keep safety guardrails intact — optimize for structural improvement only, never factual invention
+
+### Cold Start Problem
+With only 1 patient and 5 iterations, the memory has too few examples to generalize. Meaningful learning requires at least 20-30 (draft, corrected) pairs across diverse patients.
+
+### Gaming Risk
+Optimizing to reduce edit distance can be gamed — an agent can lower edit distance by becoming vaguer or mimicking reviewer style rather than getting the medicine right. Safety guardrails (no fabrication, always flag missing data) must be preserved and evaluated independently of the reward signal.

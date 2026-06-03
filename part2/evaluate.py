@@ -8,12 +8,13 @@ from part2.learner import add_to_memory, build_correction_context, get_memory_st
 def run_evaluation(patient_id: str, iterations: int = 5):
     """
     Runs the learning loop for a patient:
-    1. Load the agent's draft
-    2. Simulated doctor reviews it
-    3. Compute reward signal
-    4. Store (draft, corrected) pair in memory
-    5. Repeat, injecting past corrections each time
-    6. Print improvement curve
+    1. Load the agent's original draft
+    2. Inject past correction context into reviewer prompt
+    3. Simulated doctor reviews it
+    4. Compute reward signal
+    5. Store (draft, corrected) pair in memory
+    6. Repeat - each iteration reviewer has more context
+    7. Print improvement curve
     """
     # Load original draft
     draft_path = Path(f"output/{patient_id}_discharge_summary.txt")
@@ -30,7 +31,6 @@ def run_evaluation(patient_id: str, iterations: int = 5):
     print(f"{'='*60}\n")
 
     results = []
-    current_draft = original_draft
 
     for i in range(1, iterations + 1):
         print(f"\n--- Iteration {i}/{iterations} ---")
@@ -38,24 +38,31 @@ def run_evaluation(patient_id: str, iterations: int = 5):
         # Get correction context from memory
         correction_context = build_correction_context(n_examples=3)
 
-        # If we have context, prepend it to the draft for the reviewer
+        # Always start from original draft
+        # But inject past corrections as context for the reviewer
         if correction_context:
-            draft_with_context = f"{correction_context}\n\n---\n\nCURRENT DRAFT:\n{current_draft}"
+            draft_with_context = (
+                f"{correction_context}\n\n"
+                f"---\n\n"
+                f"Now apply your editing policy to this NEW draft, "
+                f"using the above patterns to make fewer corrections needed:\n\n"
+                f"{original_draft}"
+            )
         else:
-            draft_with_context = current_draft
+            draft_with_context = original_draft
 
         # Simulated doctor reviews
-        print(f"[EVALUATE] Running simulated review...")
+        print(f"[EVALUATE] Running simulated review (iteration {i})...")
         corrected = simulated_review(draft_with_context)
 
-        # Compute reward
-        reward_signal = compute_reward(current_draft, corrected)
+        # Compute reward against original draft
+        reward_signal = compute_reward(original_draft, corrected)
         print(f"[EVALUATE] Edit distance : {reward_signal['edit_distance']}")
         print(f"[EVALUATE] Reward        : {reward_signal['reward']}")
         print(f"[EVALUATE] Avg section   : {reward_signal['avg_section_accuracy']}")
 
         # Store in memory
-        add_to_memory(current_draft, corrected, reward_signal["reward"])
+        add_to_memory(original_draft, corrected, reward_signal["reward"])
 
         # Save corrected version
         corrected_path = Path(f"output/{patient_id}_corrected_iter{i}.txt")
@@ -68,9 +75,6 @@ def run_evaluation(patient_id: str, iterations: int = 5):
             "reward": reward_signal["reward"],
             "avg_section_accuracy": reward_signal["avg_section_accuracy"],
         })
-
-        # Use corrected as next iteration's draft
-        current_draft = corrected
 
     # Print improvement curve
     print(f"\n{'='*60}")
@@ -91,8 +95,8 @@ def run_evaluation(patient_id: str, iterations: int = 5):
     last = results[-1]
     improvement = round(first['edit_distance'] - last['edit_distance'], 4)
     print(f"\n{'='*60}")
-    print(f"BEFORE: Edit distance = {first['edit_distance']}")
-    print(f"AFTER:  Edit distance = {last['edit_distance']}")
+    print(f"BEFORE (iteration 1): Edit distance = {first['edit_distance']}")
+    print(f"AFTER  (iteration {iterations}): Edit distance = {last['edit_distance']}")
     print(f"IMPROVEMENT: {improvement} reduction in edit distance")
     print(f"{'='*60}")
 
