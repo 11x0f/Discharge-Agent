@@ -1,32 +1,32 @@
 [
   {
     "iteration": 1,
-    "edit_distance": 0.9224,
-    "reward": 0.0776,
-    "avg_section_accuracy": 0.5146
+    "edit_distance": 0.9267,
+    "reward": 0.0733,
+    "avg_section_accuracy": 0.5072
   },
   {
     "iteration": 2,
-    "edit_distance": 0.9174,
-    "reward": 0.0826,
-    "avg_section_accuracy": 0.5573
+    "edit_distance": 0.7394,
+    "reward": 0.2606,
+    "avg_section_accuracy": 0.4766
   },
   {
     "iteration": 3,
-    "edit_distance": 0.3903,
-    "reward": 0.6097,
-    "avg_section_accuracy": 0.5172
+    "edit_distance": 0.4668,
+    "reward": 0.5332,
+    "avg_section_accuracy": 0.5214
   },
   {
     "iteration": 4,
-    "edit_distance": 0.9779,
-    "reward": 0.0221,
-    "avg_section_accuracy": 0.5059
+    "edit_distance": 0.4077,
+    "reward": 0.5923,
+    "avg_section_accuracy": 0.5152
   },
   {
     "iteration": 5,
-    "edit_distance": 0.9196,
-    "reward": 0.0804,
-    "avg_section_accuracy": 0.5624
+    "edit_distance": 0.9208,
+    "reward": 0.0792,
+    "avg_section_accuracy": 0.5108
   }
 ]

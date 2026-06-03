@@ -6,52 +6,51 @@ DISCHARGE SUMMARY DRAFT
 - Patient ID: To be completed by admitting physician
 
 2. Admission & Discharge Dates:
-- Admission Date: To be completed by admitting physician
-- Discharge Date: To be completed by admitting physician
+- Date of Admission: To be completed by admitting physician
+- Date of Discharge: To be completed by admitting physician
 
-3. Principal Diagnosis:
-- [CONFLICTED - FLAG FOR CLINICIAN REVIEW] Most likely: ACUTE GASTROENTERITIS WITH DEHYDRATION
+3. Diagnoses:
+- Principal Diagnosis: [CONFLICTED - FLAG FOR CLINICIAN REVIEW] Most likely: Acute Gastroenteritis with Dehydration
+- Secondary Diagnoses:
+  1. Urinary Tract Infection
+  2. DKA
+  3. Thyroid disorder on treatment (past history)
 
-4. Secondary Diagnoses:
-1. Urinary Tract Infection
-2. Thyroid disorder on treatment (past history)
+4. Hospital Course:
+The patient was admitted with symptoms of multiple episodes of loose stools, vomiting, and fatigue for three days, along with fever since the previous day. Initial investigations revealed normal CBC, elevated serum creatinine at 1.65 mg/dl, and low serum sodium at 128 mmol/L. Urinalysis showed ketone bodies, pus cells, epithelial cells, and bacteria; urine culture and sensitivity testing was conducted, with results pending. The patient was treated with intravenous fluids, antibiotics, PPIs, antiemetics, and supportive care. An abdominal ultrasound indicated Grade I fatty liver changes and mild colonic edema suggestive of colitis. Serum creatinine levels normalized upon repeat testing, and thyroid function tests were within normal limits. Stool examination revealed RBCs and pus cells. The patient opted for discharge at request, instructed to continue prescribed medications and monitor symptoms. The ER chart disclosed a diagnosis of DKA, with a pulse of 116, BP of 87/50, RR of 22, and a blood glucose level of 443 mg/dl, following which the patient was managed with IV fluids and medications. Admission to the ICU was advised during ER observation.
 
-5. Hospital Course:
-The patient presented with multiple episodes of loose stools, vomiting, fatigue for three days, and fever since the previous day. Initial investigations showed a normal CBC, elevated serum creatinine at 1.65 mg/dl, and low serum sodium of 128 mmol/L. The urine routine indicated the presence of ketone bodies, pus cells, epithelial cells, and bacteria; urine culture and sensitivity were sent and the report is awaited. The patient was treated with intravenous fluids, antibiotics, PPIs, antiemetics, and supportive care. An ultrasound of the abdomen revealed Grade I fatty liver changes and mild edema in the ascending colon suggestive of colitis. Subsequent tests showed normalized serum creatinine and normal thyroid function tests. A stool examination revealed RBCs and pus cells. Discharge was against medical advice; the patient was advised to continue medication and monitor symptoms. According to other records, the patient was admitted with DKA, with vital signs including a pulse of 116, BP of 87/50, RR of 22, and glucose level of 443 mg/dl; treatment with IV fluids and medications was initiated, and ICU admission was advised during ER observation.
+5. Procedures:
+- IV cannulation in left hand 20g
+- Administration of IV fluids, antibiotics, antiemetics, PPI
 
-6. Procedures:
-- IV cannulation in the left hand with a 20g needle.
-- Administration of IV fluids, antibiotics, antiemetics, and PPI.
-
-7. Discharge Medications:
-| Medication Name  | Dosage          | Route | Frequency | Duration | Notes/Changes |
-|------------------|-----------------|-------|-----------|----------|---------------|
-| TAB. RACIPER     | 40 MG           | Oral  | 1-0-0     | 7 days   | Continued/started on discharge |
-| TAB. EMESET      | 4 MG            | Oral  | 1-1-1     | 3 days   | Continued/started on discharge |
+6. Discharge Medications:
+| Medication Name  | Dosage         | Route | Frequency | Duration | Notes/Changes |
+|------------------|----------------|-------|-----------|----------|---------------|
+| TAB. RACIPER     | 40 MG          | Oral  | 1-0-0     | 7 days   | Continued/started on discharge |
+| TAB. EMESET      | 4 MG           | Oral  | 1-1-1     | 3 days   | Continued/started on discharge |
 | TAB. OFLOX TZ    | [dose to be verified] | Oral  | 1-0-1     | 5 days   | Newly prescribed; no documented indication [FLAGGED] |
 | TAB M STRONG     | [dose to be verified] | Oral  | 1-0-0     | 15 days  | Newly prescribed; no documented indication [FLAGGED] |
 | TAB. ZEDOTT      | [dose to be verified] | Oral  | 1-1-1     | 3 days   | Newly prescribed; no documented indication [FLAGGED] |
 | TAB. ENTR(       | [dose to be verified] | Oral  | 1-0-1     | 3 days   | Newly prescribed; no documented indication [FLAGGED] |
 | TAB. MEFTAL SPAS | [dose to be verified] | Oral  | 1 tab SOS | 4 tablets| Newly prescribed; no documented indication [FLAGGED] |
-| TAB. LOPIRAMIDE  | 2 MG            | Oral  | 1-0-1     | 5 days   | Continued/started on discharge |
+| TAB. LOPIRAMIDE  | 2 MG           | Oral  | 1-0-1     | 5 days   | Continued/started on discharge |
 
-8. Allergies:
+7. Allergies:
 - NKDA (No Known Drug Allergies)
 
-9. Follow-up Instructions:
-- Urine culture and sensitivity report pending; to be reviewed upon availability.
-- Review immediately if fever, loose stools, vomiting, or fatigue worsen.
-- Follow-up visit scheduled on 09/03/2026 to review CBC and clinical status with the Primary Care Physician.
+8. Follow-up Instructions:
+- Follow-up visit scheduled for 09.03.2026 to review CBC and clinical status.
+- Pending urine culture and sensitivity report to be reviewed upon availability.
+- Immediate review advised if symptoms like fever, loose stools, vomiting, or fatigue worsen.
 
-10. FLAGS for Clinician Review:
+9. Flags:
 1. Conflicted diagnosis: ACUTE GASTROENTERITIS WITH DEHYDRATION and URINARY TRACT INFECTION vs DKA.
 2. Missing patient demographics: name, date of birth.
 3. Missing admission and discharge dates.
 4. Discharge medications with no documented indications: TAB. OFLOX TZ, TAB M STRONG, TAB. ZEDOTT, TAB. ENTR(, TAB. MEFTAL SPAS.
-5. Missing detailed follow-up instructions beyond date and symptom review.
-6. No documented admission medication list for reconciliation.
-7. Pending urine culture and sensitivity report.
-8. Pending CBC report.
-9. No explicit discharge condition details beyond hemodynamic stability.
+5. No documented admission medication list for reconciliation.
+6. Pending urine culture and sensitivity report.
+7. Pending CBC report.
+8. No explicit discharge condition details beyond hemodynamic stability.
 
 REVIEWED DRAFT - Requires final clinician sign-off before release.

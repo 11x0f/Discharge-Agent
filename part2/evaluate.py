@@ -116,4 +116,17 @@ def run_evaluation(patient_id: str, iterations: int = 5):
 
 
 if __name__ == "__main__":
-    run_evaluation("patient_2", iterations=5)
+    print("\n" + "="*60)
+    print("RUNNING PART 2 EVALUATION ON ALL PATIENTS")
+    print("="*60)
+    
+    results_p1 = run_evaluation("patient_1", iterations=5)
+    results_p2 = run_evaluation("patient_2", iterations=5)
+    
+    print("\n" + "="*60)
+    print("COMBINED SUMMARY")
+    print("="*60)
+    print(f"Patient 1 - First iter edit distance: {results_p1[0]['edit_distance']}")
+    print(f"Patient 1 - Last iter edit distance : {results_p1[-1]['edit_distance']}")
+    print(f"Patient 2 - First iter edit distance: {results_p2[0]['edit_distance']}")
+    print(f"Patient 2 - Last iter edit distance : {results_p2[-1]['edit_distance']}")

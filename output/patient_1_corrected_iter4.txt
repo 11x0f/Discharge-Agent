@@ -1,0 +1,67 @@
+DISCHARGE SUMMARY DRAFT
+
+1. Patient Demographics
+- Name: To be completed by admitting physician
+- Date of Birth: To be completed by admitting physician
+- Patient ID: To be completed by admitting physician
+- Age/Gender: 58 years / Male
+- Blood Group: B+
+- Weight: 74 kg
+
+2. Admission & Discharge Dates
+- Date of Admission: 15/04/2026
+- Time of Admission: 10:30 AM
+- Date of Discharge: To be completed by admitting physician
+- Time of Discharge: To be completed by admitting physician
+
+3. Principal Diagnosis
+- Conflicting diagnoses noted:
+  Most likely: Hypertensive Emergency with Hypertensive Retinopathy [CONFLICTED - FLAG FOR CLINICIAN REVIEW]
+
+4. Secondary Diagnoses
+1. Type 2 Diabetes Mellitus - Uncontrolled
+2. Hypertensive Nephropathy vs Pyelonephritis (Conflicting impression; nephrology opinion pending)
+3. Left Ventricular Hypertrophy (ECG finding)
+
+5. Hospital Course
+The patient was admitted with severe headache, blurring of vision, and nausea. The initial blood pressure was 210/120 mmHg. The patient received intravenous Labetalol 20 mg and intravenous Furosemide 40 mg for acute blood pressure control. Blood pressure improved to 170/100 mmHg on day 2 with medication adjustments. The headache resolved and vision improved by discharge. Investigations revealed papilloedema, elevated serum creatinine, blood urea, and proteinuria on urine routine. A CT scan of the brain showed no intracranial bleed or infarct; mild white matter changes were noted. An ECG showed left ventricular hypertrophy. The complete renal function test panel report and nephrology opinion were pending at the time of discharge. Medication adjustments included increasing the dose of amlodipine and adding telmisartan and oral Furosemide. The patient was counseled and advised on a low salt, low fat, diabetic diet.
+
+6. Procedures
+- IV access secured on admission.
+- Administration of IV Labetalol and IV Furosemide for acute management.
+
+7. Discharge Medications
+- Tab. Amlodipine 10mg OD [dose to be verified]
+- Tab. Telmisartan 40mg OD [dose to be verified]
+- Tab. Furosemide 40mg OD oral [dose to be verified]
+- Tab. Metformin 500mg BD
+- Tab. Aspirin 75mg OD for 30 days
+
+8. Allergies
+- Penicillin allergy documented: Rash
+
+9. Follow-up Instructions
+- Review on [specific date to be provided by admitting physician] with repeat Renal Function Test, Complete Blood Count, Urine Routine.
+- Daily blood pressure monitoring at home.
+- Low salt (<2 gm sodium/day), low fat diet, diabetic diet avoiding simple sugars.
+- Follow up with Diabetologist for uncontrolled diabetes.
+- Nephrology follow-up for renal impairment.
+
+10. Pending Results
+- Complete Renal Function Test panel results: Pending
+- Nephrology opinion regarding renal diagnosis: Pending
+
+11. Discharge Condition
+- Hemodynamically stable at discharge.
+- Blood Pressure 150/90 mmHg.
+- Headache resolved.
+- Vision improved.
+
+12. Flags for Clinician Review
+1. Missing patient identifiers: name, patient ID, discharge date, and time.
+2. Conflicting principal diagnosis: Hypertensive Emergency and Hypertensive Urgency.
+3. Conflicting renal diagnosis/impression: Hypertensive Nephropathy vs Pyelonephritis with pending nephrology opinion.
+4. Conflicting and undocumented medication changes: Amlodipine dose increase, initiation of Telmisartan, route change of Furosemide to oral, addition of Aspirin without documented indications.
+5. Conflicting allergy documentation regarding Penicillin.
+
+REVIEWED DRAFT - Requires final clinician sign-off before release.
